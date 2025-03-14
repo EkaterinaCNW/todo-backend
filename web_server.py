@@ -7,7 +7,7 @@ FOLDER = 'C:\\Users\\Админ\\Desktop\\fgdgdf'
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, World! I am Kate</p>"
 
 @app.route("/api/entries/")
 def get_entries():
